@@ -1,5 +1,7 @@
 module ConfusionMatrices
 
-# package code goes here
+export ConfusionMatrix
+
+include("ConfusionMatrix.jl")
 
 end # module
